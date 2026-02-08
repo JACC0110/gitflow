@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#inicio {
+    padding-top: 30px; 
+}
+h1{
+    font-size: 35px;
+    color: rgb(96, 4, 182);
+}
+nav {
+    background-color: cadetblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: rgb(199, 16, 16);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #b46203;
+}
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#inicio { background-color: #d5e7e2;}
+#desayunos { background-color: #b7d1cc; }
+#refacciones { background-color: #d5e7e2; }
+#almuerzos { background-color:#b7d1cc; }
+#cenas { background-color: #d5e7e2; }
+#ubicacion { background-color:#b7d1cc; }
